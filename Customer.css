@@ -1,0 +1,25 @@
+*{
+    padding: 5;
+    margin: 10;
+    margin-left: 1rem;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+
+#root{
+    --bg-color: rgb(247, 174, 234);
+    --text-color: black;
+    --main-color: rgb(196, 49, 139);
+    --big-font: 7rem;
+    --p-font: 1.1rem;
+}
+
+body{
+    background-color:rgb(255, 255, 255);
+    color: black;
+    }
+
+li::marker{
+        color: black;
+    }
